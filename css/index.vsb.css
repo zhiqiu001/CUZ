@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+*{ padding:0; margin:0;}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p{ padding:0px; margin:0px; font-weight:normal;}
+ol, ul{ list-style:none;}
+li{ list-style-type:none; }
+img { border:0; padding:0px; margin:0px;}
+
+body{font-family:"Microsoft YaHei", "微软雅黑", "宋体"; color:#555; font-size:14px; background:#fff;}
+.fl{float:left}
+.fr{float:right}
+.ml20{ margin-left:20px;}
+.w1200{ width:1200px; margin:0 auto;}
+
+.header{ height:90px; background:#e72b47; position:relative; z-index:8;}
+
+.logo{ width:300px; height:61px; padding-top:12px;}
+
+#nav_top{ height:24px; color:#FFF; position: relative;z-index: 99999;}
+#nav_top .top-r{float: right;}
+.fk{ height:24px; line-height:24px;font-size:12px; color:#FFF;}
+.fk a{ margin:0 8px; color:#FFF; font-size:12px;}
+
+.menu-nav{width:106%; height:32px; line-height:32px; margin-top:6px;}
+.nav { position:relative;}
+.nav ul {padding:0; margin:0;list-style-type: none;margin-right: 53px;display: flex;justify-content: flex-end; }
+.nav ul li {float:left; position:relative; z-index:998;display:block; }
+.nav ul li a{display:block; text-decoration:none; margin-left:27px; text-transform:capitalize; text-align:center; font-size:14px; overflow:hidden; color:#fff;}
+.nav ul li:hover a { border-bottom:1px solid #ddd;}
+.nav ul li.hover a { border-bottom:1px solid #ddd;}
+.middle img{
+    width: 100%;
+    display: block; /* 确保图片不会增加额外的底部空白 */
+    margin: 0 auto; /* 居中显示 */
+}
+.foot{ width:100%; height:40px; line-height:40px; background:#242424; border-top:4px solid #727272; position:relative; bottom:0; font-size:12px; z-index:999; color:#cccccc;}
+
+.foot_l{ width:270px; font-size:12px; color:#cccccc;}
+.foot_l a{color:#cccccc;}
+.foot_r{ position:absolute; right:40px;width:460px; text-align:right;}
+#nav_top {
+    margin-top: 25px;
+    height: 24px !important;
+}
